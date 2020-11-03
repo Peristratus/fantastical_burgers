@@ -7,6 +7,20 @@ body{
     font-family: Poppins, Courier New, Courier, monospace;
     color: #777777;
 }
+/* change color to CPY color*/
+header{
+
+background-color:#F4A460;
+
+}
+
+.both {
+
+clear:both;
+
+}
+
+/**/
 
 h2{
   font-family:  Poppins;
@@ -117,4 +131,314 @@ font-size: 130% ;
   right: 150px;
 
   position: absolute;
+}
+
+#club-ethos{
+height: 600px;
+
+}
+
+#left-about{
+  padding-top: 30px;
+  width: 33%;
+  float: left;
+}
+
+#right-about{
+
+  padding-top: 30px;
+  width: 33%;
+  float: right;
+  
+}
+
+#center-about{
+
+  padding-top: 30px;
+  width: 33%;
+  margin: 0 auto;
+  
+
+}
+
+hr{
+border-top:1px solid #777777;
+width: 100%;
+margin: 5px 0;
+}
+
+.left-about-heading{
+  width: 50%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+}
+.right-heading{
+  width: 50%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 50px;
+
+}
+.right-heading h2{
+
+text-align: right;
+
+}
+
+.right-heading p{
+
+  text-align: right;
+}
+
+#welcome{
+
+  margin: 20px;
+  text-align: center;
+  font-size: 280%; 
+}
+
+/* square-circle container */
+
+#circle-container{
+width: 300px;
+height:300px;
+padding: 30px;
+border-style: solid;
+border-color: #cccccc;
+border-width: 1px;
+border-radius: 50%;
+margin: 0 auto;
+}
+
+
+#circle-cover-bg{
+  background: url("https://media.istockphoto.com/photos/lamb-greek-burger-picture-id637790866?k=6&m=637790866&s=612x612&w=0&h=-VCta3l64UbGq8kJ2Y5rSJJL7-3dSiy-F7wQ6qBKssk=") no-repeat center center;
+
+  height: 100%;
+  border-radius: 50%;
+}
+
+/** style image bottom**/
+#times{
+background-image:url("https://cdn.theculturetrip.com/wp-content/uploads/2019/11/jon-bilous-alamy-stock-photo-g15rmr.jpg");
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width:100% ;
+overflow: hidden;
+}
+
+/* added child selector- margin =1px*/
+#times > div{
+  color: #fafafa;
+  background-color: rgba(0,0,0, .6);
+  width: 19%;
+  height:300px;
+  float: left;
+  padding:30px 0 0 10px;
+  text-align:center;
+  margin: 1px;
+
+}
+#times h2{
+  color: #fafafa;
+
+}
+
+footer{
+  height: 150px;
+}
+
+.social-networks{
+  text-align: center;
+}
+
+/* added child selector*/
+.social-networks > li{
+display:inline;
+
+}
+
+.social-networks i{
+ font-size: 160%;
+ margin: 1%;
+ padding:5%;
+ color:#777777;
+ 
+}
+
+#photos{
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
+
+#photos img{
+  width:100%;
+}
+
+/* signup */
+.form-section {
+    clear: left;
+    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
+.signup-form{
+margin-top: 150px;
+color: #fff;
+background-color: rgba(60,60,60,0.6); 
+max-width: 400px;
+position: absolute;
+left: 10%;
+padding: 30px;
+
+}
+
+.signup-form > h2{
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+.text-input{
+ background: transparent; 
+ color: #fafafa;
+ width: 100%;
+ height: 25px;
+ margin: 5px 0px 20px 0px; 
+ border:1px solid #fafafa;
+ border-radius: 2px;
+
+ 
+}
+
+.text-input:hover{
+  
+  border-color:#f16c6b ;
+}
+
+.join-button{
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color:#f16c6b;
+  color:#fafafa;
+  display: block;
+}
+
+.join-button:hover{
+  
+  background-color: #fafafa;
+  color:#f16c6b;
+  
+}
+
+label input:valid + .text-input {
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+
+/** tablet view  max width altered to fit**/
+@media screen and (max-width: 1127px){
+#club-ethos{
+  width:65%;
+  height: 1200px;
+  margin: 0 auto;
+
+}
+
+#welcome{
+padding:30px 0;
+margin-top: 0;
+
+ }
+
+#right-about, #left-about{
+width: 100%;
+float: left;
+padding: 0;
+ }
+
+ #center-about{
+ clear: both;
+ width: 100%;
+ float: left;
+ padding: 0;
+
+ }
+ #times div{
+width:100%;
+clear: both;
+height: 150%;
+border-style: solid;
+border-bottom-color: #fff;
+padding:0;
+
+ }
+hr{
+  display: none;
+}
+ 
+}
+
+/* mobile view */
+@media screen and (max-width: 943px){
+
+#menu{
+  clear: left;
+  margin:left;
+  margin-left:30px;
+  margin-bottom: 20px;
+  line-height: 25px;
+
+}
+
+#cover-text{
+left:0px;
+
+}
+
+#club-ethos{
+width: 90%;
+height: 1200px;
+margin: 0 auto;
+}
+
+/* inheret not working, used ,*/
+.left-about-heading,.right-heading {
+width: 350px;
+}
+
+.left-about-heading h2,.right-heading h2{
+  width: 100%;
+  text-align: center;
+}
+.left-about-heading p,.right-heading p{
+
+text-align: center;
+padding: 0 20px 0 20px;
+}
+
+#photos{
+ column-count: 3;
+}
+
+}
+@media screen and (max-width: 800px){
+
+  #photos{
+    column-count: 2;
+  }
 }
