@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up </title>
+     <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a2299b25aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a href="index.html">
+            <h2 id="logo">Fantastical Burgers</h2>
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a class="active" href="signup.html">Sign up</a>
+                </li>
+                <li>
+                  <a href="">Order</a>
+                </li>
+
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                </ul>
+                <div class ="both"> </div>
+           </nav>
+        </header>
+           <section class="form-section">
+            <form class="signup-form" method="POST" action="https://formdump.codeinstitute.net/">
+            
+            <h2>Let's get you signed up! <i class="fas fa-hamburger"></i> </h2>
+        
+            <label for="fname">First Name</label>
+            <input class="text-input" type="text" id="fname" name="first_name" pattern="[a-zA-Z]+" required>
+        
+           <label for="lname">Last Name</label>
+           <input class="text-input" type="text" id="lname" name="last_name"  pattern="[a-zA-Z]+" required>
+        
+           <label for="email">Email Address</label>
+           <input class="text-input" type="email" id="email" name="email_address" required>
+
+           <label for="phone">Phone Number</label>
+           <input class="text-input" type="tel" id="phone" name="phone" placeholder="123-456-6788" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+       
+           <label for="road"> Beef Burgers</label>
+           <input type ="radio" id="road" name= "running_preference" value="road" required>
+       
+           <label for ="trail" > Chicken Burgers</label>
+           <input type ="radio" id= "trail" name="running_preference" value="trail">
+       
+           <label for ="both" >Both</label>
+           <input  type ="radio" id= "both" name="running_preference" value="both">
+       
+           <input  class="join-button" type ="submit" value="Let's Eat!">
+      
+      </form>
+  
+   </section> 
+    <footer>
+             <ul class="social-networks">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+             </ul>
+    </footer>
+    <script src="https://kit.fontawesome.com/3982258271.js"></script>
+</body>
+</html>

@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding:0;
@@ -23,8 +24,8 @@ clear:both;
 /**/
 
 h2{
-  font-family:  Poppins;
-  text-transform: lowercase;
+  font-family:Poppins;
+  text-transform: uppercase;
   letter-spacing: 4px;
   color:#555555;
 }
@@ -33,7 +34,7 @@ h2{
 
 font-size: 130% ;
   font-family: Poppins;
-  text-transform: lowercase;
+  text-transform: uppercase;
   letter-spacing: 4px;
   color:#555555;
 
@@ -82,9 +83,9 @@ font-size: 130% ;
 }
 
 #hero{
-  height: 800px;
+  height:700px;
   width: 100%;
-  background: url("https://cache.mrporter.com/content/images/cms/ycm/resource/blob/479994/c758e5463fcae5eaa16c00421f10d5ec/45bd527c-c59f-4a70-a372-3363d7640f8d-data.jpg/w1500_q80.jpg") no-repeat center center;
+  background: url("https://i.pinimg.com/originals/b4/98/d2/b498d219990d8dd16bb27c4c79971420.jpg") no-repeat center center;
 
   
   animation-name: hero-zoom;
@@ -285,7 +286,7 @@ display:inline;
 /* signup */
 .form-section {
     clear: left;
-    background: url("http://codeinstitute.s3.amazonaws.com/FundamentalsProjects/HTML-CSS/formbg.jpg");
+    background: url("https://burgermebaby.co.za/wp-content/uploads/2019/10/burgers-fast-food-delicious-food-sandwiches-harmful-food.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
